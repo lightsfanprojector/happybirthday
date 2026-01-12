@@ -60,6 +60,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // }
 
     function checkcountdown() {
+        const bruh = document.getElementById("bruh");
+
         if (new Date() >= birthDate) {
             bruh.style.display = 'block';
         } else {
