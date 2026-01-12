@@ -1,0 +1,40 @@
+/* Custom styles for our Anime Theme */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(257, 30%, 31%); /* Alice Blue - a very light sky blue */
+    color: #e0e0f3; /* Dark Navy/Slate */
+}
+.font-anime {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.text-sakura {
+    color: #e0e0f3; /* Cherry Blossom Pink */
+}
+.text-bruhh {
+    color:#2e2348;
+}
+.bg-navy {
+    background-color: #181636;
+}
+/* Style for the falling petals canvas */
+#sakura-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    pointer-events: none; /* Allows clicks to go through the canvas */
+}
+/* For hiding the scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
